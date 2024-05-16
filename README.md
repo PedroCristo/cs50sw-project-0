@@ -7,7 +7,7 @@ This project is a simplified clone of the Google search page created as part of 
 ![Google Clone Screenshot](./assets/images/readme/google-search-1.jpg)
 
 ## Live Project
-You can view the live version of the project [here](https://your-live-project-url.com).
+You can view the live version of the project [here](https://pedrocristo.github.io/cs50sw-project-0-google-clone/).
 
 ## Technologies Used
 - **HTML5**: Used for structuring the webpage and its content.
