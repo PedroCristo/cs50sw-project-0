@@ -44,10 +44,10 @@ a {
 }
 
 .btn {
-    background-color: #f8f9fa;
-    border: 1px solid #f8f9fa;
+    background-color: rgb(248, 249, 250);
+    border: 1px solid rgb(248, 249, 250);
     border-radius: 4px;
-    color: #3c4043;
+    color: rgb(60, 64, 67);
     font-family: Arial, sans-serif;
     font-size: 14px;
     margin: 11px 4px;
@@ -62,19 +62,19 @@ a {
 }
 
 .btn:hover {
-    background-color: #f8f9fa;
-    border-color: #dadce0;
+    background-color: rgb(248, 249, 250);
+    border-color: rgb(218, 220, 224);
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-    color: #202124;
+    color: rgb(32, 33, 36);
 }
 
 .btn:active {
-    background-color: #f1f3f4;
+    background-color: rgb(241, 243, 244);
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .btn:focus {
-    border-color: #4285f4;
+    border-color: rgb(66, 133, 244);
     outline: none;
 }
 
@@ -115,7 +115,7 @@ a {
 }
 
 .image-container span {
-    color: #4285f4;
+    color: rgb(66, 133, 244);
     font: 16px / 16px roboto-regular, Arial, sans-serif;
     position: absolute;
     right: 15px;
@@ -125,7 +125,7 @@ a {
 
 /* Form */
 .search-input-container {
-    background: #fff;
+    background: rgb(255, 255, 255);
     border-radius: 24px;
     height: 45px;
     margin: 0;
@@ -148,7 +148,7 @@ a {
     background: transparent;
     border: 0;
     border-radius: 24px;
-    color: #202124;
+    color: rgb(32, 33, 36);
     font-size: 16px;
     height: 45px;
     margin: 0;
@@ -162,7 +162,7 @@ a {
 }
 
 .search-input::placeholder {
-    color: #aaa;
+    color: rgb(170, 170, 170);
     font-size: 14px;
 }
 
@@ -194,7 +194,7 @@ a {
 
 .advance-form {
     margin: 25px 35px;
-    color: #222222;
+    color: rgb(34, 34, 34);
 }
 
 .advance-form .header {
@@ -203,7 +203,7 @@ a {
 
 .advance-form h4 {
     font-size: 16px;
-    color: #333333;
+    color: rgb(51, 51, 51);
 }
 
 .col-left {
@@ -242,7 +242,7 @@ a {
 }
 
 .advance-input:focus {
-    border-color: #4285f4;
+    border-color: rgb(66, 133, 244);
 }
 
 .col-left p,
@@ -257,7 +257,7 @@ a {
 
 .col-right span {
     font-size: 13px;
-    color: #777777;
+    color: rgb(119, 119, 119);
     display: block;
     margin-top: -27px;
 }
@@ -268,10 +268,10 @@ a {
 }
 
 .btn-advance {
-    background-color: #4d90fe;
+    background-color: rgb(77, 144, 254);
     color: rgb(255, 255, 255);
     font-size: 14px;
-    border: 1px solid #3079ed;
+    border: 1px solid rgb(48, 121, 237);
     border-radius: 5px;
     cursor: pointer;
 }
@@ -279,5 +279,5 @@ a {
 .btn-advance:hover {
     opacity: 0.9;
     color: rgb(255, 255, 255);
-    background-color: #4d90fe;
+    background-color: rgb(77, 144, 254);
 }
