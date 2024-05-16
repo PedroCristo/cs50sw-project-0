@@ -1,0 +1,283 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    padding: 8px;
+}
+
+.btn {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    width: 140px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn:hover {
+    background-color: #f8f9fa;
+    border-color: #dadce0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #202124;
+}
+
+.btn:active {
+    background-color: #f1f3f4;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.btn:focus {
+    border-color: #4285f4;
+    outline: none;
+}
+
+/* Navbar */
+.navbar {
+    margin-top: 15px;
+    padding: 0 16px;
+    color: rgb(32, 32, 32);
+}
+
+.navbar .nav-link {
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.navbar .nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Main Container */
+.main-container {
+    flex-direction: column;
+    height: 70vh;
+}
+
+/* Image Container */
+.image-container {
+    margin: 0 auto;
+    position: relative;
+    width: 300px;
+}
+
+.image-container img {
+    width: 272px;
+    height: 92px;
+    margin: 50px 0;
+}
+
+.image-container span {
+    color: #4285f4;
+    font: 16px / 16px roboto-regular, Arial, sans-serif;
+    position: absolute;
+    right: 15px;
+    bottom: 50px;
+    white-space: nowrap;
+}
+
+/* Form */
+.search-input-container {
+    background: #fff;
+    border-radius: 24px;
+    height: 45px;
+    margin: 0;
+    padding: 0 16px;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.18);
+    width: 548px;
+    position: relative;
+}
+
+.search-input-container img {
+    width: 35px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translate(-50%, -50%);
+}
+
+.search-input {
+    background: transparent;
+    border: 0;
+    border-radius: 24px;
+    color: #202124;
+    font-size: 16px;
+    height: 45px;
+    margin: 0;
+    outline: none;
+    padding: 0 16px;
+    width: 100%;
+}
+
+.search-input-container:hover {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+.search-input::placeholder {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.container-btn {
+    text-align: center;
+}
+
+/* Advanced Search Page */
+.navbar-advance {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-advance img {
+    width: 74px;
+    height: 24px;
+}
+
+.title {
+    color: rgb(217, 48, 37);
+    font-size: 20px;
+    margin: 25px 35px;
+    opacity: 0.8;
+}
+
+.divider {
+    border: 1px solid rgb(246, 238, 238);
+}
+
+.advance-form {
+    margin: 25px 35px;
+    color: #222222;
+}
+
+.advance-form .header {
+    margin: 25px 0;
+}
+
+.advance-form h4 {
+    font-size: 16px;
+    color: #333333;
+}
+
+.col-left {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.col-right {
+    width: 35%;
+}
+
+.col-inputs {
+    width: 55%;
+}
+
+.advance-input {
+    width: 100%;
+    font-size: 12px;
+    border: 1px solid rgb(223, 225, 229);
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.numbers-inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numbers-inputs .advance-input {
+    margin: 0 20px;
+    width: 100px;
+}
+
+.advance-input:focus {
+    border-color: #4285f4;
+}
+
+.col-left p,
+.col-right p {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.col-left p {
+    font-size: 13px;
+}
+
+.col-right span {
+    font-size: 13px;
+    color: #777777;
+    display: block;
+    margin-top: -27px;
+}
+
+.col-right p {
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+.btn-advance {
+    background-color: #4d90fe;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    border: 1px solid #3079ed;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-advance:hover {
+    opacity: 0.9;
+    color: rgb(255, 255, 255);
+    background-color: #4d90fe;
+}

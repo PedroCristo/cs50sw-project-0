@@ -1,0 +1,8 @@
+/* Media query for screens with a maximum width of 1056px */
+@media only screen and (max-width: 1056px) {
+
+    .col-right{
+        display: none;
+    }
+
+}

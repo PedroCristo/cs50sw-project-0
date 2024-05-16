@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Add favicon -->
+    <link rel="icon" type="image/png" href="../assets/images/goggle_favicon.png">
+    <!-- Main CSS  -->
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <title>Advanced Search</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-advance display-flex">
+        <a href="../index.html"><img src="../assets/images/googlelogo_color_272x92dp.png" alt="Google Logo"></a>
+        <a class="nav-link" href="../index.html">Google</a>
+    </nav>
+    <!-- End of Navbar -->
+
+    <div class="container">
+        <h3 class="title">Advanced Search</h3>
+    </div>
+    <div class="divider"></div>
+
+    <!-- Main Container -->
+    <div class="advance-form container">
+        <div class="header display-flex justify-between">
+            <h4>Find pages with...</h4>
+        </div>
+        <div class="display-flex">
+            <div class="col-left display-flex">
+                <p>all these words:</p>
+                <p>this exact word or phrase:</p>
+                <p>any of these words:</p>
+                <p>none of these words:</p>
+                <p>numbers ranging from:</p>
+            </div>
+            <div class="col-inputs">
+                <form action="https://google.com/search">
+                    <input class="advance-input" type="text" name="as_q">
+                    <input class="advance-input" type="text" name="as_epq">
+                    <input class="advance-input" type="text" name="as_oq">
+                    <input class="advance-input" type="text" name="as_eq">
+                    <div class="numbers-inputs display-flex">
+                        <input class="advance-input" type="text" name="as_nlo">
+                        <span>to</span>
+                        <input class="advance-input" type="text" name="as_nhi">
+                    </div>
+                    <div class="advance-container-btn display-flex justify-end">
+                        <input class="btn btn-advance" type="submit" value="Advanced Search">
+                    </div>
+                </form>
+            </div>
+            <div class="col-right">
+                <span>To do this in the search box:</span>
+                <p>Type the important words: tri-colour rat terrier</p>
+                <p>Put exact words in quotes: "rat terrier"</p>
+                <p>Type OR between all the words you want: miniature OR standard</p>
+                <p>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</p>
+                <p>Put two full stops between the numbers and add a unit of measurement: 10..35 kg, £300..£500, 2010..2011</p>
+            </div>
+        </div>
+    </div>
+    <!-- End of Main Container -->
+</body>
+
+</html>
