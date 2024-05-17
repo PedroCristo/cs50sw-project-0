@@ -9,6 +9,9 @@ This project is a simplified clone of the Google search page created as part of 
 ## Live Project
 You can view the live version of the project [here](https://pedrocristo.github.io/cs50sw-project-0-google-clone/).
 
+## Video
+Watch the video version of the project here: [here](https://www.youtube.com/watch?v=qieANrhtXtw).
+
 ## Technologies Used
 - **HTML5**: Used for structuring the webpage and its content.
 - **CSS3**: Used for styling the webpage, including layout, colors, fonts, and responsiveness.
